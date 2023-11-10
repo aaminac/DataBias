@@ -10,7 +10,7 @@ In this assignment, I used the Perspective API to evaluate and test my hypothesi
 My initial hypothesis was that death threats would be more toxic than insults.
 
 **Results:**
-The results were that both death threats and insults received high toxicity scores above 0.90, and there wasn't a significant difference in toxicity scores between the two categories. I did not expect this outcome because I thought that death threats would be rated significantly higher in toxicity compared to insults since they are more harmful.
+My hypothesis was proven wrong according to the model that used a threshold of 0.5 on my sample. The results were that both death threats and insults received high toxicity scores above 0.90, and there wasn't a significant difference in toxicity scores between the two categories. I did not expect this outcome because I thought that death threats would be rated significantly higher in toxicity compared to insults since they are more harmful.
 
 **Analysis and Reflection:**
 I think that the model's inability to differentiate between the severity of death threats and insults might be because of certain biases in the data used for training. Biases in the training data may not accurately represent the real-world harm caused by death threats. Additionally, biases could be linked to the way the model perceives the severity of certain words. For example, the model might see words like "complete" as more intense and increase an insult's toxicity.
